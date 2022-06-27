@@ -1,0 +1,136 @@
+.about_com_all {
+  padding: 7.5%;
+  display: flex;
+  border: solid 2px #ddd;
+  box-shadow: 20px 20px 30px #ddd;
+}
+
+.about_com_list {
+  width: 50%;
+}
+
+.about_com_item {
+  margin-bottom: 7.5%;
+}
+
+.about_com_ttl {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.about_com_txt {
+  font-size: 1.1rem;
+  display: inline-block;
+}
+
+.about_mem_all {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7.5%;
+  border: solid 2px #ddd;
+  box-shadow: 20px 20px 30px #ddd;
+}
+
+.about_mem_per {
+  width: 40%;
+}
+
+.about_mem_ttl {
+  position: relative;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 2.5%;
+}
+
+.about_mem_ttl::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 35px;
+  background-color: #75a9ff;
+  top: 5%;
+  left: -2.5%;
+}
+
+.about_mem_name {
+  font-size: 1.35rem;
+  margin-bottom: 5%;
+}
+
+.about_mem_txt {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about_acc_map_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.about_acc_map {
+  margin-left: 10%;
+  width: 60%;
+  height: 52.5vh;
+  clip-path: polygon(0% 0%, 0% 300%, 80% 0%);
+}
+
+.about_acc_map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.about_acc_item {
+  margin-bottom: 7.5%;
+}
+
+.about_acc_ttl {
+  margin-bottom: 2.5%;
+  font-size: 1.5rem;
+}
+
+.about_acc_txt {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1024px) {
+.about_acc_map {
+  height: 25vh;
+}
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  .about_com_all {
+  display: block;
+}
+
+.about_com_list {
+  width: 100%;
+}
+
+.about_mem_all {
+  display: block;
+}
+
+
+.about_mem_per {
+  width: 100%; 
+  margin-bottom: 10%;
+}
+
+.about_acc_map_wrapper {
+  display: block;
+}
+
+.about_acc_map {
+  width: 80%;
+  clip-path: unset;
+}
+
+.about_acc_list {
+  margin: 10% 5%;
+}
+}
